@@ -1,33 +1,29 @@
 # Google Maps → Excel — Claude Code Skill
 
-Extract professional contact lists from Google Maps and export them to Excel, directly from Claude Code.
+Extrait automatiquement des listes de professionnels depuis Google Maps et les exporte en Excel, directement depuis Claude Code.
 
-## 🚀 Installation
+## Installation
 
-In Claude Code, run:
-```
-/plugin install google-maps-to-excel@google-maps-to-excel-claude
-```
-
-Or add the marketplace manually and install:
-```
-/marketplace add https://github.com/rouchsamuel-lgtm/google-maps-to-excel-claude
+```bash
+curl -fsSL https://raw.githubusercontent.com/rouchsamuel-lgtm/google-maps-to-excel-claude/main/install.sh | bash
 ```
 
-## 💬 How to use
+Puis **relancer Claude Code**.
 
-Once installed, just ask Claude:
+## Utilisation
+
+Une fois installé, demande simplement à Claude :
 
 > "Scrape-moi les experts-comptables à Paris 6"
 > "Donne-moi une liste de kinésithérapeutes à Lyon 3"
 > "Extrais depuis Google Maps les notaires à Bordeaux"
 
-Claude will navigate Google Maps, extract contacts, and save an Excel file automatically.
+Claude navigue sur Google Maps, extrait les contacts et sauvegarde un fichier Excel automatiquement.
 
-## 📋 What you get
+## Résultat
 
-| Column | Example |
-|--------|---------|
+| Colonne | Exemple |
+|---------|---------|
 | Nom | Cabinet Charles Lefebvre |
 | Adresse | 54 Bd Saint-Michel |
 | Code Postal | 75006 |
@@ -35,11 +31,17 @@ Claude will navigate Google Maps, extract contacts, and save an Excel file autom
 | Téléphone | +33 1 43 26 57 82 |
 | Site web | https://cabinet-lefebvre.fr |
 
-## ⚙️ Prerequisites
+## Prérequis
 
 - [Claude Code](https://claude.ai/code)
-- [Claude in Chrome](https://chromewebstore.google.com) extension connected
+- Extension Chrome [Claude in Chrome](https://chromewebstore.google.com) connectée
 
-## License
+## Désinstallation
+
+```bash
+rm -rf ~/.claude/skills/google-maps-to-excel
+```
+
+## Licence
 
 MIT
