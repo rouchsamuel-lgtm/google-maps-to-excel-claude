@@ -1,0 +1,17 @@
+{
+  "name": "google-maps-to-excel-claude",
+  "description": "Extract professional contact lists from Google Maps and export to Excel — with Claude Code",
+  "version": "1.0.0",
+  "author": "rouchsamuel-lgtm",
+  "license": "MIT",
+  "skills": [
+    {
+      "slug": "google-maps-to-excel",
+      "name": "Google Maps → Excel",
+      "path": "google-maps-to-excel/SKILL.md",
+      "description": "Extracts professional contact lists from Google Maps (name, address, phone, website) and exports to Excel. Triggers on: 'scrape Google Maps', 'liste de [catégorie] à [ville]', 'extrais depuis Google Maps', 'donne-moi les contacts de [métier] à [lieu]'."
+    }
+  ],
+  "language": "fr",
+  "country": "FR"
+}
